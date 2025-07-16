@@ -7,7 +7,7 @@ const firstBucket = new aws.s3.BucketV2("primeiro-bucket-teste2", {
   }
 });
 
-const secondBucket = new aws.s3.BucketV2("segundo-bucket", {
+const secondBucket = new aws.s3.BucketV2("segundo-bucket-83974298", {
   bucket: "segundo-bucket",
   tags: {
     IAC: "true",
