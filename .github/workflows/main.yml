@@ -43,7 +43,7 @@ jobs:
         uses: pulumi/actions@v6
         with:
           command: up
-          stack-name: stg
+          stack-name: ftr-explorando-iac/stg
           cloud-url: s3://pulumi-state-rod
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
